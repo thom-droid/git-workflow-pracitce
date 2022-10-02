@@ -3,7 +3,7 @@ package chicken;
 public class Chicken {
 
     private String name;
-    private Ingredients ingredients;
+    private Ingredient ingredient;
     private int price;
 
     public String getName() {
@@ -14,12 +14,12 @@ public class Chicken {
         this.name = name;
     }
 
-    public Ingredients getIngredients() {
-        return ingredients;
+    public Ingredient getIngredients() {
+        return ingredient;
     }
 
-    public void setIngredients(Ingredients ingredients) {
-        this.ingredients = ingredients;
+    public void setIngredients(Ingredient ingredient) {
+        this.ingredient = ingredient;
     }
 
     public int getPrice() {

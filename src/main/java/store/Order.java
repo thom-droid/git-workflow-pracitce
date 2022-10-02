@@ -11,4 +11,27 @@ public class Order {
 
     private List<Chicken> chickens;
 
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public List<Chicken> getChickens() {
+        return chickens;
+    }
+
+    public void setChickens(List<Chicken> chickens) {
+        this.chickens = chickens;
+    }
 }

@@ -1,2 +1,4 @@
-package store;public class Address {
+package store;
+
+public class Address {
 }
